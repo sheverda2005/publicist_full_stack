@@ -1,0 +1,19 @@
+.card {
+    border: 0px;
+    border-bottom: 1.5px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+    padding-left: 0px;
+    transition: all 0.3s;
+}
+
+.card-body:hover {
+    padding: 1rem 1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: auto !important;
+}

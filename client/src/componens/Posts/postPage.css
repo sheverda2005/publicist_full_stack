@@ -1,0 +1,42 @@
+p > iframe {
+    width: 60% !important; 
+    height: 400px !important;
+}
+@media screen and (max-width: 990px) {
+    p > iframe {
+        width: 80% !important; 
+        max-height: 300px;
+    }
+}
+@media screen and (max-width: 767px) {
+    p > iframe {
+        width: 100% !important; 
+        max-height: 290px;
+    }
+}
+@media screen and (max-width: 540px) {
+    p > iframe {
+        width: 100% !important; 
+        max-height: 250px;
+    }
+  }
+@media screen and (max-width: 540px) {
+    p > iframe {
+        max-height: 230px !important;
+    }
+  }
+@media screen and (max-width: 430px) {
+    p > iframe {
+        max-height: 200px !important;
+    }
+  }
+@media screen and (max-width: 400px) {
+    p > iframe {
+        max-height: 180px !important;
+    }
+  }
+@media screen and (max-width: 320px) {
+    p > iframe {
+        max-height: 160px !important;
+    }
+  }
